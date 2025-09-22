@@ -1,6 +1,12 @@
+body{
+    margin: 0;
+    display: flex;
+}
+
+
 img {
     width: 500px;
-    height: 810px;
+    height: 835px;
     display: flex;
     margin: 0px;
     border: 0px;
@@ -9,12 +15,13 @@ img {
 .credit {
     position: fixed;
     font-weight: 500;
+    font-size: medium;
     left: 140px;
-    bottom: 60px;
-    color: white;
+    bottom: 15px;
+    color: beige;
     text-decoration: none;
 }
 
-.credit:visited {
-    color: white;
+a:visited {
+    color: beige;
 }
