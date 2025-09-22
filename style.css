@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+}
+
 @font-face {
     font-family: "ODIN-NORSE";
     src: url("assets/Norse-Bold.otf") format("opentype");
@@ -33,7 +40,6 @@
     display: flex;
     /* margin: 0px;
     border: 0px; 
-}
 */
 
 
@@ -65,7 +71,123 @@
     text-decoration: none;
     color: whitesmoke;
 }
-/* 
-a:visited {
-    color: whitesmoke;
-} */
+
+.right {
+    display: flex;
+    flex-direction: column;
+    min-width: 65vw;
+}
+
+.about {
+    height: 30vh;
+    font-family: sans-serif;
+    font-weight: 100px;
+    background-color: rgb(245, 245, 245);
+    font-size: 1.0rem;
+    padding-top:120px;
+    padding-left: 20px;
+    padding-right: 70px;
+    padding-bottom: 200px;
+}
+
+.input {
+    height: 35vh;
+    background-color: white;
+}
+
+.button{
+   height: 30vh;
+   background-color: rgb(245, 245, 245);
+}
+
+.name,.contact,.password {
+    display: flex;
+
+}
+
+
+.name div,.contact div,.password div {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 90px 20px 0px;
+
+}
+
+fieldset{
+    border: none;
+    margin-left: 30px;
+}
+
+legend {
+    font-size: 1.5  rem;
+    font-family: sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-family:"Montserrat";
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: rgb(36, 35, 35);
+}
+
+input::placeholder {
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom:80px;
+}
+
+input {
+    appearance: none;
+    border-color: #E5E7EB;
+    border: 1px solid;
+    box-sizing: border-box;
+    width: 200px;
+    height: 1.8rem;
+    margin: 0;
+    padding: 10px;
+}
+
+input:focus {
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+input:invalid {
+     border: 2px solid red;
+}
+
+button {
+    background-color: #596D48;
+    font-size: medium;
+    font-family: sans-serif;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.button a:link {
+       color: #596d48;
+       text-decoration: none;
+}
+
+.button a:visited {
+       color: #596d48;
+}
+
+.button p{
+    padding-left: 34px ;
+    text-decoration: none;
+}
