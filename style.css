@@ -32,17 +32,6 @@
 
 }
 
-
-/* 
-.credit {
-    width: 500px;
-    height: 835px;
-    display: flex;
-    /* margin: 0px;
-    border: 0px; 
-*/
-
-
 .logo {
     display: flex;
     justify-content: center;
@@ -59,8 +48,7 @@
 }
 
 
-
-.credit, a:visited {
+.credit, a:visited, a:link {
     display: flex;
     position: fixed;
     font-weight: 500;
